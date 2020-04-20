@@ -1,60 +1,98 @@
+/* https://codepen.io/ThibaultG4U/pen/NrqyEr */
+/* https://www.sitepoint.com/community/t/keep-aspect-ratio-when-resizing-bootstrap-columns/226193 */
+/* https://stackoverflow.com/questions/30026855/can-i-give-the-col-md-1-5-in-bootstrap/30027585 */
+
 body {
   padding-top: 50px;
 }
 
-
-#games{
-  height: auto;
-  padding: 0;
+.col-custom{
+    -ms-flex: 0 0 20.0%;
+    flex: 0 0 20.0%;
+    max-width: 20.0%;
+    margin: 2.5%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
-#games div{
+#pitch{
+  height: auto;
+  padding: 0;
+  padding-bottom: 1rem;
+}
+
+#pitch .col-custom{
   height: auto;
   position: relative;
   text-align: center;
   padding: 14.5% 0 0;
 }
 
-#games p{
-  width: 90%;
-  left: 5%;
-  padding: 10px;
-  position: absolute;
-  color: white;
-  font-size: 1.6em;
-  border: 1px solid white;
-  border-radius: 5px;
-  bottom: 50px;
- 
+#pitch .row-players .cus-padding{
+  padding: 15% 0 0;
 }
 
+.row-players{
+    margin-right: 0;
+    margin-left: 0;
+    max-height: 80px;
+}
+
+#pitch p{
+    width: 100%;
+    left: 0;
+    padding: 5px;
+    position: absolute;
+    color: white;
+    font-size: .75rem;
+    line-height: 1.1;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    bottom: 0;
+}
+
+.col-border{
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
 #g1{
-  background-color: red;
+  /* background-color: red;
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("https://inthegame.nl/wp-content/uploads/uncharted-4-2.jpg") no-repeat center center;
-  background-size: cover;
+  background-size: cover; */
+
+    background: url('sou.png') center top;
+    background-size: 50% 65%;
+    background-repeat: no-repeat;
 }
 
 #g2{
-  background-color: red;
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("https://assets2.ignimgs.com/2016/03/31/quantumbreak1280jpg-6843f2_1280w.jpg") no-repeat center center;
-  background-size: cover;
+    background: url('sou.png') center top;
+    background-size: 50% 65%;
+    background-repeat: no-repeat;
 }
 
 #g3{
-  background-color: red;
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("http://api.reshift.nl/media/media/images/mgsv-header.jpg") no-repeat center center;
-  background-size: cover;
+    background: url('sou.png') center top;
+    background-size: 50% 65%;
+    background-repeat: no-repeat;   
 }
 
 #g4{
-  background-color: red;
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("http://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2015/10/halo-banner.jpg?itok=houCyV6j") no-repeat center center;
-  background-size: cover;
+    background: url('sou.png') center top;
+    background-size: 50% 65%;
+    background-repeat: no-repeat;
 }
-/* 
-@media screen and (max-width:767px) {
-	#games div{padding:75% 0 0}	
-} */
+
 
 
 .container-pitch{
@@ -64,6 +102,23 @@ body {
     background-size: 100% 100%;
 }
 
+
+#pitch .row-fwd{
+  padding: 2.5% 0 0;
+}
+#pitch .row-mid{
+  padding: 2.5% 0 0;
+}
+#pitch .row-def{
+  padding: 2.5% 0 0;
+}
+#pitch .row-gk{
+  padding: 2.5% 0 0;
+}
+
+.row-main{
+    padding: 5% 0 5% 0;
+}
 .no-padding{
     padding: 0;
 }
@@ -72,16 +127,30 @@ body {
     margin: 0;
 }
 
-.row {
+.no-bottom-margin{
+    margin-bottom: 0;
+}
+.no-top-margin{
+    margin-top: 0;
+}
+
+.row-margins{
     margin-right: 0;
     margin-left: 0;
 }
 
-.offset-half {
-    margin-left: 12.5%
+.offset-custom-3{
+    margin-left: 15%;
 }
+
+
+.offset-custom-1 {
+    margin-left: 42.5%
+}
+
 
 .offset-one-and-a-half
 {
     margin-left: 37.5%
 }
+
