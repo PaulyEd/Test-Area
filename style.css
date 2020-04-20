@@ -1,100 +1,87 @@
-/*! CSS Used from: https://www.fantasyfootballfix.com/static/CACHE/css/b361ac46f98c.css ; media=screen */
-@media screen{
-a:focus{outline:thin dotted #333;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
-a:hover,a:active{outline:0;}
-@media print{
-*{color:#000!important;text-shadow:none!important;background:transparent!important;box-shadow:none!important;}
-a,a:visited{text-decoration:underline;}
-a[href]:after{content:" (" attr(href) ")";}
-h2,h3{orphans:3;widows:3;}
-h2,h3{page-break-after:avoid;}
+body {
+  padding-top: 50px;
 }
-a{color:#08c;text-decoration:none;}
-a:hover,a:focus{color:#005580;text-decoration:underline;}
-.container{width:940px;}
-.container{margin-right:auto;margin-left:auto;*zoom:1;}
-.container:before,.container:after{display:table;line-height:0;content:"";}
-.container:after{clear:both;}
-h2,h3,h4{margin:10px 0;font-family:inherit;font-weight:bold;line-height:20px;color:inherit;text-rendering:optimizelegibility;}
-h2,h3{line-height:40px;}
-h2{font-size:31.5px;}
-h3{font-size:24.5px;}
-h4{font-size:17.5px;}
 
-@media (min-width:1200px){
-.container{width:1170px;}
+
+#games{
+  height: auto;
+  padding: 0;
 }
-@media (min-width:768px) and (max-width:979px){
-.container{width:724px;}
+
+#games div{
+  height: auto;
+  position: relative;
+  text-align: center;
+  padding: 14.5% 0 0;
 }
-@media (max-width:767px){
-.container{width:auto;}
+
+#games p{
+  width: 90%;
+  left: 5%;
+  padding: 10px;
+  position: absolute;
+  color: white;
+  font-size: 1.6em;
+  border: 1px solid white;
+  border-radius: 5px;
+  bottom: 50px;
+ 
 }
+
+#g1{
+  background-color: red;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("https://inthegame.nl/wp-content/uploads/uncharted-4-2.jpg") no-repeat center center;
+  background-size: cover;
 }
-/*! CSS Used from: https://www.fantasyfootballfix.com/static/CACHE/css/636816b4a09c.css */
-@media (max-width:767px){
-.container{padding-right:20px;padding-left:20px;}
+
+#g2{
+  background-color: red;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("https://assets2.ignimgs.com/2016/03/31/quantumbreak1280jpg-6843f2_1280w.jpg") no-repeat center center;
+  background-size: cover;
 }
-@media screen and (min-width:767px){
-.row--equal{display:-webkit-flex;display:flex;}
+
+#g3{
+  background-color: red;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("http://api.reshift.nl/media/media/images/mgsv-header.jpg") no-repeat center center;
+  background-size: cover;
 }
-a{color:#22133C;text-decoration:none;outline:none;}
-a:hover{color:#555;text-decoration:none;outline:0;}
-a:focus{color:#555;text-decoration:none;outline:0;}
-h2,h3,h4{color:#22133C;font-weight:600;}
-h2{font-size:21px;line-height:28px;}
-h3{font-size:18px;line-height:25px;}
-h4{font-size:16px;line-height:25px;margin-bottom:10px;}
-.paragraph{font-size:1.3em;line-height:1.5em;}
-.divider{height:1px;background-color:#eee;margin:40px 0;}
-.btn{position:relative;padding:15px 20px;background-color:#22133C;color:#fff;letter-spacing:1px;font-weight:600;text-transform:uppercase;font-size:13px;line-height:18px;text-shadow:none;background-image:none;border-radius:0;border:0;outline:0!important;-webkit-font-smoothing:antialiased;transition:all 0.25s ease-in-out;-khtml-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;-ms-box-shadow:transparent 0 0 0 0;-o-box-shadow:transparent 0 0 0 0;box-shadow:transparent 0 0 0 0;}
-.btn:hover{color:#fff;outline:0!important;padding:15px 20px;background-color:#0c0715;transition:all 0.25s ease-in-out;}
-.btn:focus{outline:0!important;background-color:#22133C;color:#fff;}
-.btn-one-light{color:#22133C;position:relative;padding:15px 20px;background-color:#E5E5E5;}
-.btn-one-light:hover,.btn-one-light:focus{color:#22133C;padding:15px 20px;background-color:#cccbcb;}
-.fff-2017--landing__stats{padding:60px 0;}
-.fff-2017--landing__stats .row--equal{margin:0 -30px;}
-.fff-2017--landing__stats .stats__box{-webkit-flex:1 0 50%;flex:1 0 50%;border-right:1px solid #EFEFEF;padding:0 30px;box-sizing:border-box;text-align:center;}
-.fff-2017--landing__stats .stats__box:last-child{border-right:0;}
-.fff-2017--landing__stats .stats__box h2{margin:0 0 20px 0;}
-.fff-2017--landing__stats .stats__box #gwCountdown{display:inline-block;background:#EFEFEF;color:#22133C;font-weight:600;font-size:30px;line-height:35px;padding:1px;}
-.fff-2017--landing__stats .stats__box #gwCountdown .days{padding:5px 0 5px 10px;margin:-1px 0;display:inline-block;}
-.fff-2017--landing__stats .stats__box #gwCountdown .hours{padding:5px 0 5px 10px;margin:-1px 0;display:inline-block;}
-.fff-2017--landing__stats .stats__box #gwCountdown .mins{padding:5px 0 5px 10px;margin:-1px 0;display:inline-block;}
-.fff-2017--landing__stats .stats__box #gwCountdown .lab{padding:5px 10px 5px 0;margin:-1px 0;border-right:1px solid rgba(0,0,0,0.2);display:inline-block;}
-.fff-2017--landing__stats .stats__box #gwCountdown .lab:last-child{border-right:0;}
-.fff-2017--landing__stats .stats__box .divider{margin:30px 0;}
-.fff-2017--landing__stats .stats__box #fff{height:auto;margin:0 0 30px 0;}
-.fff-2017--landing__stats .stats__box .fffPitch{margin-bottom:0;}
-.fff-2017--landing__stats .stats__box .stats__results{display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;}
-.fff-2017--landing__stats .stats__box .stats__results h3{margin-top:0;}
-.fff-2017--landing__stats .stats__box .stats__results .picks{-webkit-flex:1 0 50%;flex:1 0 50%;border-right:1px solid #EFEFEF;box-sizing:border-box;padding:0 20px 0 0;}
-.fff-2017--landing__stats .stats__box .stats__results .average{-webkit-flex:1 0 50%;flex:1 0 50%;box-sizing:border-box;padding:0 0 0 20px;}
-.fff-2017--landing__stats .stats__box .stats__results span{font-size:30px;font-weight:600;color:#22133C;}
-.fff-2017--landing__stats .stats__blog{display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;}
-.fff-2017--landing__stats .homeblog-box{text-align:center;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-flex:1 1 100%;flex:1 1 100%;height:100%;}
-.fff-2017--landing__stats .homeblog-box h2{margin-bottom:30px;text-align:center;}
-.fff-2017--landing__stats .homeblog-box .blog__image{position:relative;overflow:hidden;-webkit-flex:1 1 auto;flex:1 1 auto;background-position:50% 50%;background-size:cover;background-repeat:no-repeat;margin:0 0 20px 0;min-height:220px;}
-.fff-2017--landing__stats .homeblog-box .blog__info{-webkit-flex:0 0 auto;flex:0 0 auto;}
-.fff-2017--landing__stats .homeblog-box .btn{margin-top:30px;}
-@media screen and (max-width:767px){
-.fff-2017--landing__stats{padding:10px 0;}
-.fff-2017--landing__stats .row--equal{margin:0;}
-.fff-2017--landing__stats .stats__box{border-right:0;border-bottom:1px solid #EFEFEF;padding:30px 0;box-sizing:border-box;text-align:center;}
-.fff-2017--landing__stats .stats__box:last-child{border-right:0;border-bottom:0;}
-.fff-2017--landing__stats .stats__box h2{margin:0 0 20px 0;}
-.fff-2017--landing__stats .stats__box #gwCountdown{font-size:20px;line-height:26px;}
-.fff-2017--landing__stats .stats__box #fff{height:auto;}
-.fff-2017--landing__stats .stats__box .fffPitch{margin-bottom:0;}
-.fff-2017--landing__stats .stats__box .stats__results{display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;}
-.fff-2017--landing__stats .stats__box .stats__results h3{font-size:13px;line-height:16px;}
-.fff-2017--landing__stats .stats__box .stats__results span{font-size:20px;}
-.fff-2017--landing__stats .homeblog-box{display:block;}
-.fff-2017--landing__stats .homeblog-box h2{margin-bottom:30px;text-align:center;}
-.fff-2017--landing__stats .homeblog-box .blog__info{-webkit-flex:0 0 auto;flex:0 0 auto;}
-.fff-2017--landing__stats .homeblog-box .btn{margin-top:30px;}
+
+#g4{
+  background-color: red;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("http://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2015/10/halo-banner.jpg?itok=houCyV6j") no-repeat center center;
+  background-size: cover;
 }
-.home-wrap .btn:focus,.home-wrap .btn:active{color:#fff;background-color:#22133C;}
-#fff{font-family:Arial,helvetica,sans-serif;height:620px;}
-.fffPitch{background-size:100% 100%;height:480px;margin-bottom:140px;max-width:490px;margin-left:auto;display:block;margin-right:auto;}
-.fffLine{overflow:hidden;*overflow:visible;*zoom:1;}
+/* 
+@media screen and (max-width:767px) {
+	#games div{padding:75% 0 0}	
+} */
+
+
+.container-pitch{
+    max-width: 600px;
+    max-height: 715px;
+    background: grey;
+    background-size: 100% 100%;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.offset-half {
+    margin-left: 12.5%
+}
+
+.offset-one-and-a-half
+{
+    margin-left: 37.5%
+}
